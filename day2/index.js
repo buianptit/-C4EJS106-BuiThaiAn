@@ -123,7 +123,7 @@ if(BMI < 16){
     alert('Underweight');
 }else if(BMI >= 18.5 && BMI < 25){
     alert('Normal');
-}else if(BMI > 25 && BMI < 30 ){
+}else if(BMI >= 25 && BMI < 30 ){
     alert('Overweight');
 }else{
     alert('Obese');
