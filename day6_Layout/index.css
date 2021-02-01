@@ -1,0 +1,11 @@
+#div2 h1{
+    color: blue;
+}
+/* child combinator (>) : Dùng để chọn thẻ con trực tiếp,ngay sau đó */
+div.item > span {
+    font-size: 18px;
+}
+div.item > div > span{
+    font-style: italic;
+}
+
