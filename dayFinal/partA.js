@@ -53,7 +53,7 @@ mainBtn.addEventListener('click',()=> {
         alert(`Kết quả đúng là : Số ${numberResult}`);
        }
        else{
-           console.log('Chúc mừng! Bạn đã trúng thưởng.')
+           alert.log('Chúc mừng! Bạn đã trúng thưởng.')
        }
     }
 })
